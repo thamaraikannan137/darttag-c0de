@@ -4,7 +4,7 @@ Problem:1
 Write a simple application using a recursive function that accepts a value (integer) and returns the fibonacci value at that position in the series.
 The application should be performant at scale to handle larger numbers without slowing down exponentially.
 
-solution
+Explanation
 -----------
 *To ensure that the function is performant at scale, we can use memoization to store the results of previous function calls and avoid redundant calculations. 
 
@@ -19,7 +19,7 @@ A string is balanced if it consists of exactly two different characters and both
  - N is an integer within the range [1..100,000];
  - string S is made only of lowercase letters (a−z).
  
- solution
+Explanation
 ----------
 *The getBalancedSubstrings function takes a string S as input and returns an array of the longest balanced substrings of S. It works by iterating over all possible substring lengths and starting positions, checking if each substring is balanced using the isBalanced helper function, and adding it to the result array if it is. Finally, it filters the result array to only include the longest substrings.
 
@@ -36,7 +36,7 @@ At the end of the solution, all Rings should be sorted on Place B just as it was
  - A larger Ring cannot be placed on top of a smaller Ring. Example, Ring 4 can only be placed on Ring 5+ and not on any of Ring 3-
  - Ring diameter cannot be negative
  
- solution
+Explanation
 ----------
 
 *The function first checks if there is only one ring to move (n === 1). In that case, it simply moves the ring from the source to the destination and adds the corresponding step to the steps array.
